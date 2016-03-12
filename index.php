@@ -11,7 +11,7 @@
 include "smsGateway.php";	
 if(isset($_POST['number'])){
 	$smsGateway = new SmsGateway('smsgateway.me@athulraj.com', 'ScaleXYPubPass');
-	$deviceID = 19195;
+	$deviceID = 19200;
 	$number = '+91'.$_POST['number'];
 	$message = $_POST['message'];
 	$options = [
